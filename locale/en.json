@@ -1,0 +1,9 @@
+{
+  "meta": {
+    "title": "Prompt Enhancer",
+    "description": "Adds a composer button that rewrites the current draft into a clearer, more executable prompt."
+  },
+  "button": {
+    "tooltip": "Enhance prompt"
+  }
+}
