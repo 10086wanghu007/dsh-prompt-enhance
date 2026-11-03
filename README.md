@@ -129,6 +129,7 @@ client.js           客户端半：输入框按钮、i18n、状态与错误提�
 cordis.patch.yml    插入插件行的 bundle patch
 locale/{en,zh}.json 插件管理中的名称与描述
 icon.svg            插件图标
+assets/icon-180.png 180×180 位图图标（市场卡片用）
 test/host.test.mjs  宿主半单元测试（node:test，无网络）
 ```
 
