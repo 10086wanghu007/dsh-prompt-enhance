@@ -1,5 +1,8 @@
 # dsh-prompt-enhance
 
+[![CI](https://github.com/10086wanghu007/dsh-prompt-enhance/actions/workflows/ci.yml/badge.svg)](https://github.com/10086wanghu007/dsh-prompt-enhance/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
 给 DeepSeek Harness Web GUI 的输入框加一个 **✦ 提示词增强** 按钮：点一下，把你正在写的草稿交给模型改写成更清晰、更可执行的提示词，并直接替换回输入框。
 
 > 一个 composer 按钮 + 一条 `/prompt-enhance` 命令。命令机制本身不进入模型上下文，不额外消耗 token；只有那一次改写调用会按模型价目计费。
@@ -24,6 +27,10 @@
 ### 方式一：通过 Plugin Manager（推荐）
 
 把本仓库克隆到任意目录，然后让 Harness 从**目录**安装：
+
+```bash
+git clone https://github.com/10086wanghu007/dsh-prompt-enhance.git
+```
 
 ```
 plugin_manager action=install_bundle target="<本仓库的绝对路径>"

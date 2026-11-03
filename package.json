@@ -11,6 +11,14 @@
     "composer"
   ],
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/10086wanghu007/dsh-prompt-enhance.git"
+  },
+  "homepage": "https://github.com/10086wanghu007/dsh-prompt-enhance#readme",
+  "bugs": {
+    "url": "https://github.com/10086wanghu007/dsh-prompt-enhance/issues"
+  },
   "type": "module",
   "exports": {
     ".": "./index.js",
